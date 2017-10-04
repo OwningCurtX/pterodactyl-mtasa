@@ -9,6 +9,7 @@ echo ":/home/container$ ${MODIFIED_STARTUP}"
 
 # Fix for Rust not starting
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(pwd)
+export NODE_DEBUG=fs
 
 # Run the Server
 node /wrapper.js "${MODIFIED_STARTUP}"
