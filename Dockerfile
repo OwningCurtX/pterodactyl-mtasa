@@ -13,6 +13,8 @@ ENV  HOME /home/container
 
 WORKDIR /home/container
 
+EXPOSE 1000-99999
+
 COPY ./entrypoint.sh /entrypoint.sh
 
 CMD ["/bin/bash", "/entrypoint.sh"]
