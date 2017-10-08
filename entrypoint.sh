@@ -4,4 +4,5 @@ sleep 2
 cd /home/container
 
 set -e
-exec -n -t -u ${STARTUP} 
+#-n -t -u
+exec ${STARTUP} 
