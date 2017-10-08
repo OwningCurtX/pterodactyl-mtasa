@@ -17,4 +17,4 @@ EXPOSE 1000-30000
 
 COPY ./entrypoint.sh /entrypoint.sh
 
-CMD ["/entrypoint.sh"]
+CMD ["/bin/bash", "/entrypoint.sh"]
