@@ -19,7 +19,7 @@ if (startupCmd.length < 1) {
 }
 
 var exec = require("child_process").exec;
-console.log("Starting Rust...");
+console.log("Starting Multi Theft Auto Server...");
 exec(startupCmd);
 
 var waiting = true;
