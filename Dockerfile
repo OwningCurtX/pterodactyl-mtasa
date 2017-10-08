@@ -13,7 +13,7 @@ ENV  HOME /home/container
 
 WORKDIR /home/container
 
-EXPOSE 1000-99999
+EXPOSE 1000-30000
 
 COPY ./entrypoint.sh /entrypoint.sh
 
