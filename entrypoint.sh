@@ -3,5 +3,6 @@ sleep 2
 
 cd /home/container
 
-set -e
-exec ${STARTUP} -n -t -u
+#set -e
+#-n -t -u
+exec ${STARTUP} 
