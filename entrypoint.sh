@@ -7,6 +7,4 @@ echo ":/home/container$ ${MODIFIED_STARTUP}"
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(pwd)
 echo "GameNodePro Server is starting.. Please wait."
-sleep(2)
-
 exec ${MODIFIED_STARTUP} -n -t -u
