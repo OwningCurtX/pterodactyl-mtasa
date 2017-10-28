@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sleep 3
 cd /home/container
 if [ -f "/home/container/mta-server64" ]; then
     echo "To update mtasa. Please delete mta-server64."
